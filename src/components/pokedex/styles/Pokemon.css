@@ -40,12 +40,20 @@
     padding-top: 20px;
 }
 
+.pokemon__type{
+    margin-bottom: 10px;
+    width: 110px;
+    height: 30px;
+    text-align: center;
+}
+
 .pokemon__ht{
     text-align: center;
 }
 
 .pokemon__div{
     color: white;
+    margin: 10px;
 }
 .pokemon__div-habi{
     color: gray;
@@ -74,12 +82,33 @@
     width: 50%;
 }
 
+
+
 @media (min-width: 700px) {
     .pokemon__stats-info{
         width: 75%;
         /* max-width: 1400px; */
         margin: 0 auto;
     }
+    .contenedor{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    }
+
+    .pokemon__stats1{
+    display: flex;
+    gap: 50%;
+    padding-top: 20px;
+}
+    .pokemon__stats2{
+    display: flex;
+    gap: 45%;
+    padding-top: 20px;
+}
+    
 }
 
 
@@ -142,4 +171,108 @@
   }
   .bg-lg-shadow {
     background: #6c31a3;
+  }
+
+
+    /* background linear gradient */
+
+.bg-normal {
+    background: linear-gradient(180deg, #735259, #000);
+    height: 25px;
+    width: 50%;
+  }
+  .bg-fighting {
+    background: linear-gradient(180deg, #96402A, #000);
+    height: 25px;
+    width: 50%;
+  }
+  .bg-flying {
+    background: linear-gradient(180deg, #beb14c, #000);
+    height: 25px;
+    width: 50%;
+  }
+  .bg-poison {
+    background: linear-gradient(180deg, #5B3184, #000);
+    height: 25px;
+    width: 50%;
+  }
+  .bg-ground {
+    background: linear-gradient(180deg, #654008, #000);
+    height: 25px;
+    width: 50%;
+  }
+  .bg-rock {
+    background: linear-gradient(180deg, #7E7E7E, #000);
+    height: 25px;
+    width: 50%;
+  }
+  .bg-bug {
+    background: linear-gradient(180deg, #E52D2D, #000);
+    height: 25px;
+    width: 50%;
+  }
+  .bg-ghost {
+    background: linear-gradient(180deg, #323569, #000);
+    height: 25px;
+    width: 50%;
+  }
+  .bg-steel {
+    background: linear-gradient(180deg, #5E736C, #000);
+    height: 25px;
+    width: 50%;
+  }
+  .bg-fire {
+    background: linear-gradient(180deg, #F96D6F, #000);
+    height: 25px;
+    width: 50%;
+  }
+  .bg-water {
+    background: linear-gradient(180deg, #133258, #000);
+    height: 25px;
+    width: 50%;
+  }
+  .bg-grass {
+    background: linear-gradient(180deg, #7EC6C5, #000);
+    height: 25px;
+    width: 50%;
+  }
+  .bg-electric {
+    background: linear-gradient(180deg, #0C1395, #000);
+    height: 25px;
+    width: 50%;
+  }
+  .bg-psychic {
+    background: linear-gradient(180deg, #E52D2D, #000);
+    height: 25px;
+    width: 50%;
+  }
+  .bg-ice {
+    background: linear-gradient(180deg, #6FBEDF, #000);
+    height: 25px;
+    width: 50%;
+  }
+  .bg-dragon {
+    background: linear-gradient(180deg, #478A93, #000);
+    height: 25px;
+    width: 50%;
+  }
+  .bg-dark {
+    background: linear-gradient(180deg, #030706, #000);
+    height: 25px;
+    width: 50%;
+  }
+  .bg-fairy {
+    background: linear-gradient(180deg, #971B45, #000);
+    height: 25px;
+    width: 50%;
+  }
+  .bg-unknown {
+    background: linear-gradient(180deg, #696767, #000);
+    height: 25px;
+    width: 50%;
+  }
+  .bg-shadow {
+    background: linear-gradient(180deg, #6c31a3, #000);
+    height: 25px;
+    width: 50%;
   }
