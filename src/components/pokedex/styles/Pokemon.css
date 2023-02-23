@@ -1,0 +1,145 @@
+.pokemon__firstsection{
+    display: flex;
+    justify-content: center;
+}
+
+.pokemon__id{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.pokemon__name{
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.pokemon__stats1{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+.pokemon__wh{
+    text-align: center;
+}
+
+.pokemon__wh h4{
+    font-size: 25px;
+}
+
+.pokemon__wh h5{
+    color: gray;
+}
+
+.pokemon__stats2{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+.pokemon__ht{
+    text-align: center;
+}
+
+.pokemon__div{
+    color: white;
+}
+.pokemon__div-habi{
+    color: gray;
+}
+
+.pokemon__stats{
+    display: flex;
+    flex-direction: column;
+}
+
+.pokemon__stats-title{
+    text-align: center;
+    padding: 15px 0;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.pokemon__stat-barGray{
+    background-color: #f7f7f7;
+    height: 25px;
+}
+
+.pokemon__stat-barProgress{
+    background: linear-gradient(90deg, #FCd676 -2.25%, #e6901e 133.18%);
+    height: 25px;
+    width: 50%;
+}
+
+@media (min-width: 700px) {
+    .pokemon__stats-info{
+        width: 75%;
+        /* max-width: 1400px; */
+        margin: 0 auto;
+    }
+}
+
+
+.bg-lg-normal {
+    background: #735259;
+  }
+  .bg-lg-fighting {
+    background: #96402A;
+  }
+  .bg-lg-flying {
+    background: #beb14c;
+  }
+  .bg-lg-poison {
+    background: #5B3184;
+  }
+  .bg-lg-ground {
+    background: #654008;
+  }
+  .bg-lg-rock {
+    background: #7E7E7E;
+  }
+  .bg-lg-bug {
+    background: #E52D2D;
+  }
+  .bg-lg-ghost {
+    background: #323569;
+  }
+  .bg-lg-steel {
+    background: #5E736C;
+  }
+  .bg-lg-fire {
+    background: #F96D6F;
+  }
+  .bg-lg-water {
+    background: #133258;
+  }
+  .bg-lg-grass {
+    background: #7EC6C5;
+  }
+  .bg-lg-electric {
+    background: #0C1395;
+  }
+  .bg-lg-psychic {
+    background: #E52D2D;
+  }
+  .bg-lg-ice {
+    background: #6FBEDF;
+  }
+  .bg-lg-dragon {
+    background: #478A93;
+  }
+  .bg-lg-dark {
+    background: #030706;
+  }
+  .bg-lg-fairy {
+    background: #971B45;
+  }
+  .bg-lg-unknown {
+    background: #696767;
+  }
+  .bg-lg-shadow {
+    background: #6c31a3;
+  }

@@ -1,0 +1,77 @@
+.home{
+    display: grid;
+    place-items: center;
+    position: absolute;
+    top: 25%;
+    width: 100%;
+}
+
+.home__img{
+    width: 50%;
+    padding-bottom: 30px;
+    animation-name: rotar-180;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@media (min-width: 700px ){
+    .home{
+        top: 10%;
+    }
+    
+    .home__img{
+        width: 400px;
+    }
+}
+
+@keyframes rotar-180 {
+    0% {      
+        transform: rotate(-25deg);
+    }
+    50% {
+        transform: rotate(25deg);
+    }
+    100% {
+        transform: rotate(-25deg);
+    }
+    
+    }
+    
+.home__title{
+    font-family: var(--arcade-font);
+    font-size: 25px;
+}
+
+.home__p{
+    font-size: 20px;
+}
+
+.home__form input{
+    width: 75%;
+    height: 33px;
+    border-radius: 10px ;
+    border: none;
+    margin-right: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;
+
+}
+
+.home__btn {
+    height: 33px;
+    width: 33px;
+    font-size: 20px;
+    background-color: #d67979;
+    margin-top: 4px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all 200ms ease;
+
+}
+
+.home__btn:hover{
+    background-color: #DD1A1A;
+    border-radius: 50%;
+}
