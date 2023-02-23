@@ -86,7 +86,7 @@ const Pokemon = () => {
                   </div>
                   <div className='pokemon__stat-bar'>
                     <div className='pokemon__stat-barGray'>
-                      <div className='pokemon__stat-barProgress' style={{width: getPercentBar(stat.base_stat)}} ></div>
+                      <div  className={`pokemon__stat-barProgress  bg-${pokemon.types[0].type.name} `} style={{width: getPercentBar(stat.base_stat)}} ></div>
                     </div>
                   </div>
                 </article>

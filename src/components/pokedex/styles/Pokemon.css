@@ -177,102 +177,102 @@
     /* background linear gradient */
 
 .bg-normal {
-    background: linear-gradient(180deg, #735259, #000);
+    background: linear-gradient(270deg, #735259, gray);
     height: 25px;
     width: 50%;
   }
   .bg-fighting {
-    background: linear-gradient(180deg, #96402A, #000);
+    background: linear-gradient(270deg, #96402A, gray);
     height: 25px;
     width: 50%;
   }
   .bg-flying {
-    background: linear-gradient(180deg, #beb14c, #000);
+    background: linear-gradient(270deg, #beb14c, gray);
     height: 25px;
     width: 50%;
   }
   .bg-poison {
-    background: linear-gradient(180deg, #5B3184, #000);
+    background: linear-gradient(270deg, #5B3184, gray);
     height: 25px;
     width: 50%;
   }
   .bg-ground {
-    background: linear-gradient(180deg, #654008, #000);
+    background: linear-gradient(270deg, #654008, gray);
     height: 25px;
     width: 50%;
   }
   .bg-rock {
-    background: linear-gradient(180deg, #7E7E7E, #000);
+    background: linear-gradient(270deg, #7E7E7E, gray);
     height: 25px;
     width: 50%;
   }
   .bg-bug {
-    background: linear-gradient(180deg, #E52D2D, #000);
+    background: linear-gradient(270deg, #E52D2D, gray);
     height: 25px;
     width: 50%;
   }
   .bg-ghost {
-    background: linear-gradient(180deg, #323569, #000);
+    background: linear-gradient(270deg, #323569, gray);
     height: 25px;
     width: 50%;
   }
   .bg-steel {
-    background: linear-gradient(180deg, #5E736C, #000);
+    background: linear-gradient(270deg, #5E736C, gray);
     height: 25px;
     width: 50%;
   }
   .bg-fire {
-    background: linear-gradient(180deg, #F96D6F, #000);
+    background: linear-gradient(270deg, #F96D6F, gray);
     height: 25px;
     width: 50%;
   }
   .bg-water {
-    background: linear-gradient(180deg, #133258, #000);
+    background: linear-gradient(270deg, #133258, gray);
     height: 25px;
     width: 50%;
   }
   .bg-grass {
-    background: linear-gradient(180deg, #7EC6C5, #000);
+    background: linear-gradient(270deg, #7EC6C5,gray);
     height: 25px;
     width: 50%;
   }
   .bg-electric {
-    background: linear-gradient(180deg, #0C1395, #000);
+    background: linear-gradient(270deg, #0C1395, gray);
     height: 25px;
     width: 50%;
   }
   .bg-psychic {
-    background: linear-gradient(180deg, #E52D2D, #000);
+    background: linear-gradient(270deg, #E52D2D, gray);
     height: 25px;
     width: 50%;
   }
   .bg-ice {
-    background: linear-gradient(180deg, #6FBEDF, #000);
+    background: linear-gradient(270deg, #6FBEDF, gray);
     height: 25px;
     width: 50%;
   }
   .bg-dragon {
-    background: linear-gradient(180deg, #478A93, #000);
+    background: linear-gradient(270deg, #478A93, gray);
     height: 25px;
     width: 50%;
   }
   .bg-dark {
-    background: linear-gradient(180deg, #030706, #000);
+    background: linear-gradient(270deg, #030706, gray);
     height: 25px;
     width: 50%;
   }
   .bg-fairy {
-    background: linear-gradient(180deg, #971B45, #000);
+    background: linear-gradient(270deg, #971B45, gray);
     height: 25px;
     width: 50%;
   }
   .bg-unknown {
-    background: linear-gradient(180deg, #696767, #000);
+    background: linear-gradient(270deg, #696767, gray);
     height: 25px;
     width: 50%;
   }
   .bg-shadow {
-    background: linear-gradient(180deg, #6c31a3, #000);
+    background: linear-gradient(270deg, #6c31a3, gray);
     height: 25px;
     width: 50%;
   }
